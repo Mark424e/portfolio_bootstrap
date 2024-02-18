@@ -1,0 +1,26 @@
+@use 'custom';
+
+body {
+  font-family: Arial, sans-serif;
+}
+.hero-section {
+  background-color: #f8f9fa;
+  padding: 100px 0;
+  text-align: center;
+}
+.hero-section h1 {
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+.hero-section p {
+  font-size: 1.2rem;
+  margin-bottom: 50px;
+}
+.portfolio-item {
+  padding: 30px 0;
+}
+.portfolio-item img {
+  max-width: 100%;
+  height: auto;
+}
+

@@ -6,6 +6,7 @@
     <title>Portfolio Bootstrap</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0d50ekZIqXSSm3sGll11yJv6O2//AHx1HjKio2aQShB6PZxyj1sftdYbPR0tGYV" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/bc87d7ac19.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -31,7 +32,12 @@
   <section class="hero-section">
       <div class="container">
           <h1>Welcome to My Portfolio</h1>
-            <p>This site is made with Bootstrap v5 and Sass</p>
+            <p>
+              I am known for my ability to handle complex tasks
+              with a proactive approach and deliver high-quality results. My communication skills and
+              ability to establish and maintain positive relationships are key elements in 
+              my work skill.
+            </p>
           <a href="#portfolio" class="btn btn-primary btn-lg">View Portfolio</a>
       </div>
   </section>
@@ -39,48 +45,52 @@
   <!-- Content -->
   <section id="portfolio" class="portfolio-section mt-5">
       <div class="container">
-          <h2 class="text-center mb-5">Portfolio</h2>
+          <h2 class="text-center mb-2">Portfolio</h2>
           <div class="row justify-content-center">
-              <a class="col-lg-4 col-md-6 portfolio-item text-decoration-none"  href="projects/gillelejeisen/Forside/index.html" target="_blank">
-                  <img src="https://via.placeholder.com/400" alt="Project 1">
-                  <h3>Gilleleje-Isen</h3>
-                  <p>The Gilleleje-Isen website redesign project aimed to transform the online presence of the ice cream company, Gilleleje-Isen. The primary objective was to enhance user experience, improve brand visibility, and streamline online operations for the company.</p>
-              </a>
-              <a class="col-lg-4 col-md-6 portfolio-item text-decoration-none" href="projects/brianmadsenredesign/index.php" target="_blank">
-                  <img src="https://via.placeholder.com/400" alt="Project 2">
-                  <h3>Brian Madsen</h3>
-                  <p>The Brian Madsen Car Dealership Website Redesign project aimed to revitalize the online presence of the car dealership, Brian Madsen. The objective was to reinforce brand identity, and facilitate seamless interactions for potential car buyers and existing customers.</p>
-              </a>
-              <a class="col-lg-4 col-md-6 portfolio-item text-decoration-none" href="projects/glemmekassen/frontend/src/app/tabs/tabs.page.html" target="_blank">
-                  <img src="https://via.placeholder.com/400" alt="Project 3">
-                  <h3>Glemmekassen</h3>
-                  <p>The Glemmekassen website redesign project aimed to overhaul the online platform for the fictional lost and found company, Glemmekassen. The objective was to create a user-friendly, and visually appealing website that simplifies the process of facilitating efficient reunions between owners and finders.</p>
-              </a>
+            <div class="col-lg-4 col-md-6">
+              <div class="portfolio-item text-decoration-none text-black">
+                <a href="projects/gillelejeisen/Forside/index.html" target="_blank">
+                  <img src="images/icecream.jpg" alt="Project 1">
+                </a>
+                <h3>Gilleleje-Isen</h3>
+                <p>The Gilleleje-Isen website redesign project aimed to transform the online presence of the ice cream company, Gilleleje-Isen. The primary objective was to enhance user experience, improve brand visibility, and streamline online operations for the company.</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="portfolio-item text-decoration-none text-black">
+                <a href="projects/brianmadsenredesign/index.php" target="_blank">
+                  <img src="images/cardealership.jpg" alt="Project 2">
+                </a>
+                <h3>Brian Madsen</h3>
+                <p>The Brian Madsen Car Dealership Website Redesign project aimed to revitalize the online presence of the car dealership, Brian Madsen. The objective was to reinforce brand identity, and facilitate seamless interactions for potential car buyers and existing customers.</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="portfolio-item text-decoration-none text-black" >
+                <a href="project3.html">
+                  <img src="images/lostandfound.jpg" alt="Project 3">
+                </a>
+                <h3>Glemmekassen</h3>
+                <p>The Glemmekassen website redesign project aimed to overhaul the online platform for the fictional lost and found company, Glemmekassen. The objective was to create a user-friendly, and visually appealing website that simplifies the process of facilitating efficient reunions between owners and finders.</p>
+              </div>
+            </div>
           </div>
       </div>
     </section>
 
     <!-- Footer -->
-    <footer class="footer text-light bg-primary mt-5">
-      <div class="container">
-          <div class="row">
-              <div class="col-md-6 my-5">
-                  <h4>Contact Information</h4>
-                  <ul class="list-unstyled text-decoration-none">
-                    <li>Email: <a class="text-decoration-none text-light" href="mailto:markphillip1800@gmail.com">markphillip1800@gmail.com</a></li>
-                    <li>Phone: <a class="text-decoration-none text-light" href="tel:+4553552078">+45 53 55 20 78</a></li>
-                  </ul>
-              </div>
-              <div class="col-md-6 mt-5">
-                  <h4>Socials</h4>
-                  <ul class="list-unstyled text-decoration-none">
-                      <li><a class="text-decoration-none text-light" href="https://github.com/Mark424e" target="_blank">Github</a></li>
-                      <li><a class="text-decoration-none text-light" href="https://www.linkedin.com/in/markphillip1800/" target="_blank">LinkedIn</a></li>
-                  </ul>
-              </div>
-          </div>
-      </div>
+    <footer class="text-center text-lg-start text-white bg-primary">
+    <div class="container p-4 pb-0">
+      <section class="mb-4 text-center">
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/markphillip1800/" target="_blank" role="button"><i class="fab fa-linkedin-in"></i></a>
+        <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/Mark424e" target="_blank" role="button"><i class="fab fa-github"></i></a>
+      </section>
+    </div>
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+      <p class="text-white">© 2024 Copyright: Mark Phillip Thomassen</p>
+    </div>
   </footer>
+</div>
 
     <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-RuZcVVTCISz4DLkD5O14V0T6djBwzmCFF5fZyIJDDv+Z2RHppt1Bkkbz2lTB+qzF" crossorigin="anonymous"></script>
